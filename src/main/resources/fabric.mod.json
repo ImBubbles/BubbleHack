@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bubblehack",
+  "version": "${version}",
+
+  "name": "Bubble Hack",
+  "description": "Beamed",
+  "authors": [
+    "Bubbles"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bubblehack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bubbles.bubblehack.Client"
+    ]
+  },
+  "mixins": [
+    "bubblehack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
