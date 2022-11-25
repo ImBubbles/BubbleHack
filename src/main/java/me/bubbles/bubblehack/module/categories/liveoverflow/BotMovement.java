@@ -1,7 +1,6 @@
 package me.bubbles.bubblehack.module.categories.liveoverflow;
 
 import me.bubbles.bubblehack.module.Mod;
-import net.minecraft.client.network.ClientPlayerEntity;
 
 public class BotMovement extends Mod {
 
