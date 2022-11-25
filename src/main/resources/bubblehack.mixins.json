@@ -7,7 +7,10 @@
     "ClientMixin",
     "InGameHudMixin",
     "KeyboardMixin",
-    "NotLeakingCode ;)"
+    "PlayerPositionFullPacketMixin",
+    "PlayerPositionPacketMixin",
+    "WorldBorderInitializeS2CPacketMixin",
+    "WorldMixin"
   ],
   "client": [
     "ClientPlayNetworkHandlerMixin"
